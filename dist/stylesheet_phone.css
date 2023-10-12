@@ -1,0 +1,20 @@
+@media  (min-width: 321px) and (max-width: 799px){
+    /*style smartphones et petites tablettes en portrait*/
+    ul{
+        display :flex;
+     }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+
+    @media screen and (max-height: 300px) {
+        ul {
+            margin-top: 40px;
+        }
+    }
+  
+  
