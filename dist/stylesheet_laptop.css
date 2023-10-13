@@ -44,10 +44,51 @@
 
 
   .home{
+    margin : 120px auto 0 auto ;
     display: flex;
+    justify-content: space-between;
     border-width: 2px;
-    height: 700px;
+
+    width: 75%;
+   /* // background-color: blue; */
+
   }
 
+  .home-child-1{
+
+    width: 60%;
+  }
+
+  .home-child-1-p-1{
+    font-size: 1.5rem;
+
+  }
+  .home-child-1-h1{
+    font-size: clamp(3rem,5vw + 1rem,6.2rem);
+    padding-left: 20px;
+    
+
+  }
+
+  .home-child-1-p-2{
+      font-size: clamp(1.5rem,1.3vw + 1rem,2.6rem);
+      line-height: 1.1;
+      padding-left: 20px;
+    
+
+  }
+
+
+  .home-photo{
+
+    width: 40%;
+
+
+  }
+
+  .home-photo-img{
+    margin: auto;
+
+  }
 
   

@@ -7,6 +7,22 @@
     .home{
         display: flex;
         flex-direction: column;
+
+
+    }
+
+    .home-child-1-p-2{
+
+        width: 100%;
+    
+    }
+
+    .home-child-1{
+        width: 100%;
+    }
+
+    .home-photo{
+        margin: auto;
     }
     }
 
